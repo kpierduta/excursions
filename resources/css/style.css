@@ -4,23 +4,33 @@ h1, h2, p {
 
 body {
   background-color: black;
+  text-align: center;
 }
 
 h1 {
   font-weight: normal;
   font-size: 50px;
   text-align: center;
-  font-color: white;
+  color: white;
+  display: block;
+  font-weight: bold;
 }
 
 h2 {
   text-align: center;
-  font-color: white;
+  color: white;
+  font-size: 42px;
+  display: block;
+  font-weight: bold;
 }
 
 p {
   font-size: 21px;
   color: Gray;
+}
+
+video {
+  object-fit: contain;
 }
 
 .cta {
